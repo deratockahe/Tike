@@ -1,0 +1,636 @@
+body {
+  background-color: #fbfbfb;
+  font-family: "Lexend", sans-serif;
+  margin: 0;
+}
+
+button {
+  font-family: "Lexend", sans-serif;
+  border: 0;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+h1 {
+  margin: 16px 16px 8px 16px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.marginaTop0 {
+  margin-top: 0;
+}
+
+.marginaTop24 {
+  margin-top: 24px;
+}
+
+.marginaDesno8 {
+  margin-right: 8px;
+}
+
+.poravnanjeTeksta {
+  text-align: justify;
+}
+
+.navGore {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 16px 8px 16px;
+  z-index: 10;
+}
+
+.prviDio {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 24px;
+}
+
+a,
+a:visited,
+a:focus,
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.font18 {
+  font-size: 18px;
+}
+
+.font16 {
+  font-size: 16px;
+}
+
+.font12 {
+  font-size: 12px;
+}
+
+.font10 {
+  font-size: 10px;
+}
+
+.font8 {
+  font-size: 8px;
+}
+
+.marginTopBottom8 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#patika {
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.jednaPatika {
+  border-radius: 20px;
+}
+
+.patikaDana {
+  width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  border-radius: 24px;
+  margin: 24px;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+}
+
+.detaljanOpis {
+  margin-top: 16px;
+}
+
+.imgWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  border-radius: 20px 20px 0 0;
+  background-color: #fff !important;
+}
+
+.imgWrapperDana {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.slika {
+  max-width: 60%;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.slikaDana {
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.dodatnoSvi {
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.dodatniOpis {
+  font-size: 16px;
+}
+
+.jednaPatika:hover {
+  scale: 103%;
+}
+
+.naziv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.nameDana {
+  font-weight: 600;
+  font-size: larger;
+  margin: 16px 0;
+}
+
+#opis {
+  border-radius: 0 0 20px 20px;
+  padding: 16px;
+}
+
+#opisDana {
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.ocjena {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 8px 0;
+}
+
+.ocjenaDana {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 8px 0;
+  font-weight: 600;
+}
+
+.filter {
+  display: flex;
+  gap: 16px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 8px 16px 24px 16px;
+}
+
+.gumbFilter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 20%;
+  flex-grow: 1;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 8px;
+  width: 24%;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.gumbSve {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 1%;
+  flex-grow: 1;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 8px;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.gumbSve:hover {
+  background-color: #e9e9e9;
+}
+
+.suncePanel,
+.sunce:focus,
+.sunce:hover {
+  background-color: #f8ffb0;
+}
+
+.vrucePanel,
+.vruce:focus,
+.vruce:hover {
+  background-color: #fd8a8a;
+}
+
+.kisaPanel,
+.kisa:focus,
+.kisa:hover {
+  background-color: #c4e2e2;
+}
+
+.snijegPanel,
+.snijeg:focus,
+.snijeg:hover {
+  background-color: #9ea1d4;
+}
+
+.drugiDio {
+  margin-bottom: 80px;
+}
+
+#svePatike {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 8px 16px;
+  justify-content: center;
+}
+
+.oznacenoKategorije path:hover {
+  fill: #9ea1d4;
+  scale: 95%;
+}
+.oznacenoHome path:hover {
+  fill: #c4e2e2;
+  scale: 95%;
+}
+.oznacenoOmiljeno path:hover {
+  fill: #fd8a8a;
+  scale: 95%;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  margin: 32px 16px 80px 16px;
+}
+
+.accordion-header {
+  padding: 16px;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  border-radius: 32px;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  z-index: 2;
+}
+
+.accordion-content {
+  display: none;
+  padding: 16px;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  margin-top: -40px;
+  margin-bottom: 16px;
+  background-color: #fff;
+  border-radius: 0 0 24px 24px;
+  z-index: 1;
+}
+
+.slikaKategorija {
+  width: 100%;
+  object-fit: contain;
+}
+
+.imgWrapperKategorija {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+  min-width: 170px;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.productInfo {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.kupovina {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.kupovina:hover,
+.kupovinaSve:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.kupovinaSve {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 16px;
+  background-color: #fff;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.wrapperKategorija {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-top: 16px;
+}
+
+.wrapOpis {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 16px;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.obuca {
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  flex-basis: 40%;
+  flex-grow: 1;
+}
+
+.odjeca {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+
+.odjecaPredmet1 {
+  display: flex;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  border-radius: 20px;
+  width: 220px;
+  flex-basis: 40%;
+  flex-grow: 1;
+}
+
+.slikaOdjeca {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: contain;
+}
+
+.odjecaPredmet2 {
+  display: flex;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  border-radius: 20px;
+  width: 170px;
+}
+
+.dvaPredmeta {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 16px;
+  flex-basis: 40%;
+  flex-grow: 1;
+}
+
+#patikaSunce {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+#patikaVruce {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+#patikaKisa {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+#patikaSnijeg {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.traperice {
+  background-color: #f8f8f8;
+}
+
+.hlace {
+  background-color: #f7f7f7;
+}
+
+#opisDanaKategorija {
+  border-radius: 20px;
+  padding: 16px;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.sunceOpis {
+  background-color: #fcffdd;
+}
+
+.vruceOpis {
+  background-color: #ffe0e0;
+}
+
+.kisaOpis {
+  background-color: #deefef;
+}
+
+.snijegOpis {
+  background-color: #c5c6e1;
+}
+
+#panel4 {
+  margin-bottom: 80px;
+}
+
+/*Za instagram postove*/
+
+.inspiracija {
+  margin: 32px 16px 80px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+#instagramPost {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px -1px 8px 0px;
+  border-radius: 20px;
+  flex-basis: 15%;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.sInstagrama {
+  display: flex;
+  align-self: center;
+}
+.margina16 {
+  margin: 16px 0 16px 0;
+}
+
+/* veći ekran */
+@media only screen and (min-width: 768px) {
+  .navDoljeContainer {
+    position: absolute;
+    top: 24px;
+    right: 16px;
+    width: auto;
+  }
+
+  .navDolje {
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    align-items: center;
+    border-radius: none;
+    background-color: transparent;
+    box-shadow: none;
+    z-index: 3;
+  }
+
+  .jednaPatika {
+    flex-basis: 22%;
+    flex-grow: 1;
+  }
+}
+
+/* promjena u column */
+@media only screen and (max-width: 1065px) {
+  .patikaDana {
+    flex-direction: column;
+  }
+  .kupovinaSve {
+    flex-direction: column;
+  }
+
+  .font16 {
+    font-size: 14px;
+  }
+
+  .font10 {
+    font-size: 8px;
+  }
+}
+
+/* promjena za inspiraciju */
+@media only screen and (max-width: 1519px) {
+  #instagramPost {
+    flex-basis: 40%;
+  }
+}
+
+/* mobitel */
+@media only screen and (max-width: 768px) {
+  .navDolje {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px -1px 8px 0px;
+    z-index: 3;
+  }
+
+  .gumbFilter {
+    flex-basis: 30%;
+    flex-grow: 1;
+  }
+
+  .jednaPatika {
+    flex-basis: 44%;
+    flex-grow: 1;
+  }
+
+  .slika {
+    max-width: 90%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .slikaDana {
+    width: 90%;
+  }
+
+  .productInfo {
+    display: block;
+  }
+
+  .kupovina {
+    flex-direction: column;
+  }
+
+  .ocjena {
+    gap: 8px;
+  }
+
+  #patikaSunce,
+  #patikaVruce,
+  #patikaSnijeg,
+  #patikaKisa {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .dodatniOpis {
+    font-size: 12px;
+  }
+  .kupovinaSve {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+}
