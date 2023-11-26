@@ -1,3 +1,4 @@
+/*opcenito*/
 body {
   background-color: #fbfbfb;
   font-family: "Lexend", sans-serif;
@@ -28,6 +29,31 @@ h5 {
   text-decoration: underline;
 }
 
+.font18 {
+  font-size: 18px;
+}
+
+.font16 {
+  font-size: 16px;
+}
+
+.font12 {
+  font-size: 12px;
+}
+
+.font10 {
+  font-size: 10px;
+}
+
+.font8 {
+  font-size: 8px;
+}
+
+.marginTopBottom8 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 .marginaTop0 {
   margin-top: 0;
 }
@@ -43,6 +69,8 @@ h5 {
 .poravnanjeTeksta {
   text-align: justify;
 }
+
+/*navigacija*/
 
 .navGore {
   display: flex;
@@ -69,30 +97,7 @@ a:active {
   text-decoration: none;
 }
 
-.font18 {
-  font-size: 18px;
-}
-
-.font16 {
-  font-size: 16px;
-}
-
-.font12 {
-  font-size: 12px;
-}
-
-.font10 {
-  font-size: 10px;
-}
-
-.font8 {
-  font-size: 8px;
-}
-
-.marginTopBottom8 {
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
+/*prvi dio s patikama*/
 
 #patika {
   display: flex;
@@ -285,6 +290,8 @@ a:active {
   fill: #fd8a8a;
   scale: 95%;
 }
+
+/*accordion - kategorije*/
 
 .accordion {
   display: flex;
@@ -487,7 +494,7 @@ a:active {
   margin-bottom: 80px;
 }
 
-/*Za instagram postove*/
+/*inspiracija s medija*/
 
 .inspiracija {
   margin: 32px 16px 80px 16px;
@@ -634,3 +641,5 @@ a:active {
     margin-top: 8px;
   }
 }
+
+/*splashscreen*/
